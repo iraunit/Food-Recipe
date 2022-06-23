@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/receipeFragment4">
+    <fragment
+        android:id="@+id/receipeFragment4"
+        android:name="com.shyptsolution.thefoodreceipe.RecipeFragment"
+        android:label="fragment_receipe"
+        tools:layout="@layout/fragment_recipe" />
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.shyptsolution.thefoodreceipe.FavouriteFragment"
+        android:label="fragment_favourite"
+        tools:layout="@layout/fragment_favourite" />
+    <fragment
+        android:id="@+id/foodJokeFragment"
+        android:name="com.shyptsolution.thefoodreceipe.FoodJokeFragment"
+        android:label="fragment_food_joke"
+        tools:layout="@layout/fragment_food_joke" />
+</navigation>
